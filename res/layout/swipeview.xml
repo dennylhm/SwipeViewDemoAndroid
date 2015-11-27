@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zdu.swipeviewdemo.SwipeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:minHeight="40dp"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+
+    <include layout="@layout/item_content"/>
+    <include layout="@layout/item_menu"/>
+
+</com.zdu.swipeviewdemo.SwipeView>
